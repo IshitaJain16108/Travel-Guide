@@ -20,7 +20,7 @@
 .login-btn{
   width: 100px;
   padding: 8px 0;
-  outline: none important;
+  outline: none !important;
   border: 2px solid #fff;
   background: transparent;
   border-radius: 50px;
@@ -60,9 +60,12 @@
   padding: 0 25px !important;
   border-radius: 30px !important;
   box-shadow: none !important;
+  bottom: -7.8px;
+  right: 10px;
 }
-features{
+.features{
   padding: 100px 0;
+  background-color: #e6e6ff;
 }
 h1{
   text-align: center;
@@ -82,7 +85,7 @@ h1{
   box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
   position: absolute;
   left: 20px;
-  bottom: -50px;
+  bottom: -10px;
 }
 .feature-img{
   position: relative;
@@ -105,12 +108,12 @@ h1{
 }
 .feature-details h4{
   font-weight: 600;
-  margin-top: 200px;
+  margin-top: 0px;
 }
 .feature-details .fa{
   margin-right: 5px;
 }
-feature-box{
+.feature-box{
   box-shadow: 0 0 10px 1px rgba(37,73,214,0.10);
   margin-bottom: 30px;
 }
@@ -167,7 +170,7 @@ feature-box{
 }
 .users-feedback{
   padding: 100px 0;
-
+  background-color: #ffe6e6;
 }
 .user-review{
   text-align: center;
@@ -177,7 +180,7 @@ feature-box{
 .user-review p{
   padding: 50px 10px 10px 10px;
 }
-.user-feedback img{
+.users-feedback img{
   width: 60px;
   height: 60px;
   border-radius: 50%;
